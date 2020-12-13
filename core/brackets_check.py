@@ -6,9 +6,6 @@ def solution(arr):
     l1 = ['(', '{', '[']
     l2 = [')', '}', ']']
 
-
-
-
     for i in range(0, len(arr)):
         if len(arr) % 2 != 0 or arr[i] in l2 and i == 0:
             return False
