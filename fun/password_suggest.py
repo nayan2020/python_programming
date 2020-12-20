@@ -16,10 +16,7 @@ def password(l):
             pwd = lt[randint(0,len(lt))] + pwd
     return pwd
 
-        
-
-    
-    
+       
 def main():
     length = int(input("Enter the lenght of password: "))
     t = password(length)
