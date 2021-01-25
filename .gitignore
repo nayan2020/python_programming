@@ -138,3 +138,7 @@ dmypy.json
 cython_debug/
 
 .idea
+.xml
+.json
+/shelf/
+/workspace.xml
